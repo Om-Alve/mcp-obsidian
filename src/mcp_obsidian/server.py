@@ -263,4 +263,4 @@ def obsidian_get_recent_changes(limit: int = 10, days: int = 90) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="http", host="127.0.0.1", port=9000)
+    mcp.run(transport="http", host="0.0.0.0", port=9000)
